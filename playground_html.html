@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>This is the title</title>
+	</head>
+	<body>
+	
+		<!-- HTML Playground -->
+		<div>
+			<h1>HTML Playground</h1>
+			<button>Useless Button</button>
+
+			<ul>
+				<li>
+					Reason number 1
+				</li>
+				<li>
+					Reason number 2
+				</li>
+			</ul>
+
+			<ol>
+				<li>
+					<a href="http://www.google.com">
+						Go to Google
+					</a>
+					<img src="https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png" alt="Google Logo">
+				</li>
+				<li>
+					Do nothing
+				</li>
+			</ol>
+
+			<fieldset>
+			    <legend>Login details:</legend>
+
+			    <div class="username">
+			        <label for="uname">Username:</label>
+			        <input type="text" id="uname" name="uname" required
+			               minlength="4" maxlength="8"
+			               placeholder="4 to 8 characters long" />
+			        <span class="validity"></span>
+			    </div>
+
+			</fieldset>
+		</div>
+
+
+		<div>
+			<fieldset>
+			    <legend>Input</legend>
+			    <form>
+			        <div>
+			            <label for="display-name"> Name:
+			                <span class="warning">*(Allows only letters.)</span> 
+			            </label>
+			            <input type="text" id="display-name" name="ip-display"
+			                   pattern="[A-Za-z\s]+"
+			                   maxlength="5" minlength="2" value="Aa" required />
+			            <span></span>
+			        </div>
+			        <div>
+			            <label for="readonly-ip">ReadOnly:</label>
+			            <input type="text" id="readonly-ip" name="ip-readonly"
+			                   placeholder="I'm read only." readonly />
+			        </div>
+			        <div>
+			            <label for="disabled-ip">Disabled:</label>
+			            <input type="text" name="ip-disabled"
+			                   id="disabled-ip"
+			                   value="I am disabled"
+			                   disabled />
+			        </div>
+			        <div>
+			            <input type="submit" class="submit" value="Submit" />
+			        </div>
+			        
+			    </form>
+			</fieldset>
+		</div>
+		<p></p>
+		<hr>
+		<div>
+			<h2>Input Types</h2>
+			<p></p>
+			<form>
+				<input type="checkbox">
+				<input type="color">
+				<input type="date">
+				<input type="datetime-local">
+				<input type="email">
+				<input type="file">
+				<input type="hidden">
+				<input type="image">
+				<input type="month">
+				<input type="number">
+				<input type="password">
+				<input type="radio">
+				<input type="range">
+				<input type="reset">
+				<input type="search">
+				<input type="submit">
+				<input type="tel">
+				<input type="time">
+				<input type="url">
+				<input type="week">
+			</form>
+
+			<h2>Text</h2>
+			<textarea>
+				This is a text area
+			</textarea>
+
+			<h2>Select</h2>
+			<select>
+				This is a select
+				<option value="Option 1">
+					This is option 1
+				</option>
+				<option value="Option 2">
+					This is option 2
+				</option>
+				<option value="Option 3">
+					This is option 3
+				</option>
+			</select>
+
+			<div>
+				<h2>Table</h2>
+
+				<table>
+					<tr>
+						<td>#</td>
+						<td>Column 1</td>
+						<td>Column 2</td>
+						<td>Column 3</td>
+					</tr>
+					<tr>
+						<td>1</td>
+						<td>1.1</td>
+						<td>1.2</td>
+						<td>1.3</td>
+					</tr>
+					<tr>
+						<td>2</td>
+						<td>2.1</td>
+						<td>2.2</td>
+						<td>2.3</td>
+					</tr>
+				</table>
+			</div>
+		</div>
+
+
+		<div>
+
+		</div>
+	</body>
+</html>
